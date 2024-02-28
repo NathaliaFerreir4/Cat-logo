@@ -1,0 +1,30 @@
+.rodapé{
+    background-color: #EB7FE9;
+    padding: 1vh;
+    border-radius: 1.5vh;
+}
+.containers{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.lista{
+    list-style-type: none;
+    margin: 3vh;
+    font-size: 18px;
+
+}
+.contato, .navegação{
+    color: white;
+    font-size: 25px;
+    margin: 2vh;
+}
+.item{
+    color: rgb(238, 214, 236);
+    margin-top: 1vh;
+}
+small{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 2vh;
+}

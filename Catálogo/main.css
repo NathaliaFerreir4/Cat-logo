@@ -1,0 +1,48 @@
+.principal{
+    background-color: rgb(238, 214, 236);
+    width: auto;
+    border-radius: 1.5vh;
+}
+
+.imagens{
+
+    padding-top: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 8vh;
+    text-align: center;
+}
+img{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 1vh;
+}
+.descrição{
+    font-size: 20px;
+    color: blueviolet;
+}
+.descrição:hover{
+    background-color: white;
+    border-radius: 1vh;
+}
+.preço{
+    color: white;
+}
+@media only screen and (max-width:1000px){
+    .imagens{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .imagens{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .imagens{
+        grid-template-columns: 1fr;
+    }
+}

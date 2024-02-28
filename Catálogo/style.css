@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+}
+.nav-bar{
+    background-color: #EB7FE9;
+    height: 20vh;
+    border-radius: 7px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 70px;
+    margin-left: 10vh;
+    margin-top: 5vh;
+}
+.nav-lista{
+    display: flex;
+    list-style: none;
+    justify-content:end;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+.home, .categorias, .minhaConta, .meusPedidos{
+    margin-right: 50px;
+    font-size: 20px;
+}
+li:hover{
+    background-color: rgb(205, 172, 200);
+}
+.sub-lista{
+    display: none;
+    background-color:#EB7FE9;
+    padding: 1vh;
+}
+.ctg{
+    list-style: none;
+}
+.calça, .vestido, .saia, .camisa{
+    color: white;
+}
+
